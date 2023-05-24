@@ -23,7 +23,7 @@ architecture Mux of mux is
     Qmux<=e;
       elsif(s="0101")then
     Qmux<=f;
-		elsif(s="0110")then
+	  elsif(s="0110")then
     Qmux<=g;
       elsif(s="0111")then
     Qmux<=h;
@@ -33,16 +33,16 @@ architecture Mux of mux is
     Qmux<=k;
       elsif(s="1010")then
     Qmux<=l;
-		elsif(s="1011")then
+	  elsif(s="1011")then
     Qmux<=m;
-		elsif(s="1100")then
+	  elsif(s="1100")then
     Qmux<=n;
       elsif(s="1101")then
     Qmux<=o;
-		elsif(s="1110")then
+	  elsif(s="1110")then
     Qmux<=p;
-		else
-	 Qmux<=r;
-  end if ;
- end process ;
+	  else
+	Qmux<=r;
+   end if ;
+  end process ;
  end Mux;
